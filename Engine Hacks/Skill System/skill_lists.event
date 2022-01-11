@@ -1,18 +1,18 @@
 EphraimLordSkillList:
 BYTE 1 BondID
-BYTE 10 CaptureID
+BYTE 10 SlayerID
 BYTE 00 00
 ALIGN 4
 
 EirikaLordSkillList:
 BYTE 1 BondID
-BYTE 10 CaptureID
+BYTE 10 SlayerID
 BYTE 00 00
 ALIGN 4
 
 EphraimGreatLordSkillList:
 BYTE 255 BondID
-BYTE 255 CaptureID //255 means "automatically given to prepromotes"
+BYTE 255 SlayerID //255 means "automatically given to prepromotes"
 BYTE 5 AetherID
 BYTE 15 AxebreakerID
 BYTE 00 00
@@ -20,7 +20,7 @@ ALIGN 4
 
 EirikaGreatLordSkillList:
 BYTE 255 BondID
-BYTE 255 CaptureID
+BYTE 255 SlayerID
 BYTE 5 AetherID
 BYTE 15 LancebreakerID
 BYTE 00 00
@@ -40,13 +40,13 @@ BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
-BYTE 1 SpurDefID
+BYTE 1 ProvokeID
 BYTE 10 NaturalCoverID
 BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
-BYTE 255 SpurDefID
+BYTE 255 ProvokeID
 BYTE 255 NaturalCoverID
 BYTE 5 BarricadeID
 BYTE 15 PaviseID
@@ -140,14 +140,14 @@ BYTE 00 00
 ALIGN 4
 
 MageSkillList:
-BYTE 1 FocusID
+BYTE 1 ProvokeID
 BYTE 10 AdeptID
 BYTE 00 00
 ALIGN 4
 
 SageSkillList:
 BYTE 255 AdeptID
-BYTE 255 FocusID
+BYTE 255 ProvokeID
 BYTE 5 TomefaireID
 BYTE 15 IgnisID
 BYTE 00 00
@@ -155,7 +155,7 @@ ALIGN 4
 
 MageKnightSkillList:
 BYTE 255 AdeptID
-BYTE 255 FocusID
+BYTE 255 ProvokeID
 BYTE 5 RallyResID
 BYTE 15 QuickBurnID
 BYTE 00 00
@@ -209,8 +209,8 @@ ALIGN 4
 
 ManaketeFSkillList:
 BYTE 01 MiracleID
-BYTE 05 OddRhythmID
-BYTE 10 SpurDefID
+BYTE 05 RallySpectrumID
+BYTE 10 VantageID
 BYTE 00 00
 ALIGN 4
 
@@ -235,13 +235,13 @@ BYTE 00 00
 ALIGN 4
 
 PirateSkillList:
-BYTE 1 CamaraderieID
+BYTE 1 DespoilID
 BYTE 10 DartingStanceID
 BYTE 00 00
 ALIGN 4
 
 BerserkerSkillList:
-BYTE 255 CamaraderieID
+BYTE 255 DespoilID
 BYTE 255 DartingStanceID
 BYTE 5 WrathID
 BYTE 15 AxefaireID
@@ -296,8 +296,9 @@ ALIGN 4
 
 BardSkillList:
 DancerSkillList:
+BYTE 1 CharmID
 BYTE 5 AmaterasuID
-BYTE 15 CelerityID
+BYTE 10 CelerityID
 BYTE 00 00
 ALIGN 4
 
@@ -327,15 +328,15 @@ SuperPupilSkillList:
 SuperRecruitSkillList:
 BYTE 255 PatienceID
 BYTE 255  ParagonID
-BYTE 5 DazzleID
+BYTE 5 SlowBurnID
 BYTE 15 ColossusID
 BYTE 00 00
 ALIGN 4
 
 ManaketeMSkillList:
 BYTE 01 MiracleID
-BYTE 05 OddRhythmID
-BYTE 10 SpurDefID
+BYTE 05 RallySpectrumID
+BYTE 10 VantageID
 BYTE 00 00
 ALIGN 4
 
@@ -356,89 +357,113 @@ BYTE 00 00
 ALIGN 4
 
 RevenantSkillList:
+BYTE 1 LiquidOozeID
 BYTE 10 RenewalID
 BYTE 00 00
 ALIGN 4
 
 EntombedSkillList:
+BYTE 255 LiquidOozeID
 BYTE 255 RenewalID
-BYTE 10 FuryID
+BYTE 5 FuryID
+BYTE 15 WrathID
 BYTE 00 00
 ALIGN 4
 
 BonewalkerSkillList:
+BYTE 1 ExpertiseID
 BYTE 10 DeathBlowID
 BYTE 00 00
 ALIGN 4
 
 WightSkillList:
+BYTE 255 ExpertiseID
 BYTE 255 DeathBlowID
-BYTE 10 HeroesLifeAndDeathID
+BYTE 5 HeroesLifeAndDeathID
+BYTE 15 SureShotID
 BYTE 00 00
 ALIGN 4
 
 BaelSkillList:
-BYTE 10 LiquidOozeID
+BYTE 1 ForagerID
+BYTE 10 BlackMagicID
 BYTE 00 00
 ALIGN 4
 
 ElderBaelSkillList:
-BYTE 255 LiquidOozeID
-BYTE 10 PoisonStrikeID
+BYTE 255 ForagerID
+BYTE 255 BlackMagicID
+BYTE 5 PoisonStrikeID
+BYTE 15 LethalityID
 BYTE 00 00
 ALIGN 4
 
 CyclopsSkillList:
+BYTE 1 SturdyStanceID
 BYTE 5 SavageBlowID
-BYTE 15 ColossusID
+BYTE 10 ColossusID
 BYTE 00 00
 ALIGN 4
 
 MautheDoogSkillList:
+BYTE 1 PivotID
 BYTE 10 DartingBlowID
 BYTE 00 00
 ALIGN 4
 
 GwyllgiSkillList:
+BYTE 255 PivotID
 BYTE 255 DartingBlowID
-BYTE 10 ReliefID
+BYTE 5 TantivyID
+BYTE 15 TrampleID
 BYTE 00 00
 ALIGN 4
 
 TarvosSkillList:
+BYTE 1 SavageBlowID
 BYTE 10 IntimidateID
 BYTE 00 00
 ALIGN 4
 
 MaelduinSkillList:
+BYTE 255 SavageBlowID
 BYTE 255 IntimidateID
-BYTE 10 PursuitID
+BYTE 5 PursuitID
+BYTE 15 RallyMovID
 BYTE 00 00
 ALIGN 4
 
 MogallSkillList:
-BYTE 10 FocusID
+BYTE 1 FocusID
+BYTE 10 AnathemaID
 BYTE 00 00
 ALIGN 4
 
 ArchMogallSkillList:
 BYTE 255 FocusID
-BYTE 10 ForesightID
+BYTE 255 AnathemaID
+BYTE 5 LuminaID
+BYTE 15 ForesightID
 BYTE 00 00
 ALIGN 4
 
 GorgonSkillList:
-BYTE 10 LungeID
+BYTE 1 PatienceID
+BYTE 5 SealResID
+BYTE 10 DazzleID
 BYTE 00 00
 ALIGN 4
 
 GargoyleSkillList:
-BYTE 10 TantivyID
+BYTE 1 ElbowRoomID
+BYTE 10 NaturalCoverID
 BYTE 00 00
 ALIGN 4
 
 DeathgoyleSkillList:
-BYTE 255 TantivyID
-BYTE 10 DesperationID
+BYTE 255 ElbowRoomID
+BYTE 255 NaturalCoverID
+BYTE 5 MaleficAuraID
+BYTE 15 ImpaleID
 BYTE 00 00
 ALIGN 4
