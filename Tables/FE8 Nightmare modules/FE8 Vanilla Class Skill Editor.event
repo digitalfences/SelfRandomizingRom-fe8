@@ -1,6 +1,6 @@
 #define csvmacro012(arg000,arg001) "BYTE arg000 arg001 "
 
-#inctext PFinder "C:\Users\bovie\Documents\GitHub\SelfRandomizingRom\FE8_clean.gba" 0xe47180 VanillaClassSkillTable
+#inctext PFinder "C:\Users\Galen\Code Study\SelfRandomizingRom-fe8\Tables\FE8_clean.gba" 0xe47180 VanillaClassSkillTable
 
 ALIGN 4
 VanillaClassSkillTable:

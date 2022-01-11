@@ -1,6 +1,6 @@
 #define csvmacro008(arg000) "WORD arg000 "
 
-#inctext PFinder "C:\Users\bovie\Documents\GitHub\SelfRandomizingRom\FE8_clean.gba" 0x29f34 NewPrepUsabilityTable
+#inctext PFinder "C:\Users\Galen\Code Study\SelfRandomizingRom-fe8\Tables\FE8_clean.gba" 0x29f34 NewPrepUsabilityTable
 
 ALIGN 4
 NewPrepUsabilityTable:

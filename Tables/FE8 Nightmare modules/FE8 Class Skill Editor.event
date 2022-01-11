@@ -1,6 +1,6 @@
 #define csvmacro000(arg000) "BYTE arg000 "
 
-#inctext PFinder "C:\Users\bovie\Documents\GitHub\SelfRandomizingRom\FE8_clean.gba" 0xe47180 ClassSkillTable
+#inctext PFinder "C:\Users\Galen\Code Study\SelfRandomizingRom-fe8\Tables\FE8_clean.gba" 0xe47180 ClassSkillTable
 
 ALIGN 4
 ClassSkillTable:
@@ -88,19 +88,19 @@ csvmacro000(0x0)
 csvmacro000(ShoveID)
 csvmacro000(ShoveID)
 csvmacro000(ShoveID)
+csvmacro000(CunningID)
+csvmacro000(CunningID)
+csvmacro000(CunningID)
+csvmacro000(CunningID)
 csvmacro000(ShoveID)
 csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
-csvmacro000(ShoveID)
+csvmacro000(SmiteID)
 csvmacro000(CantoID)
 csvmacro000(CantoID)
-csvmacro000(0x0)
-csvmacro000(0x0)
+csvmacro000(CantoID)
+csvmacro000(CantoID)
+csvmacro000(PassID)
+csvmacro000(PassID)
 csvmacro000(ShoveID)
 csvmacro000(0x0)
 csvmacro000(CantoID)

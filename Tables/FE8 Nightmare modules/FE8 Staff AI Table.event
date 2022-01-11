@@ -1,6 +1,6 @@
 #define csvmacro011(arg000,arg001,arg002) "BYTE arg000 arg001 ;WORD arg002 "
 
-#inctext PFinder "C:\Users\bovie\Documents\GitHub\SelfRandomizingRom\FE8_clean.gba" 0xd868c AI_StaffArray
+#inctext PFinder "C:\Users\Galen\Code Study\SelfRandomizingRom-fe8\Tables\FE8_clean.gba" 0xd868c AI_StaffArray
 
 ALIGN 4
 AI_StaffArray:

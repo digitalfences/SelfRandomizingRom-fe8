@@ -1,6 +1,6 @@
 #define csvmacro018(arg000,arg001) "BYTE arg000 arg001 "
 
-#inctext PFinder "C:\Users\bovie\Documents\GitHub\SelfRandomizingRom\FE8_clean.gba" 0x95f5a4 NewSummonsTable
+#inctext PFinder "C:\Users\Galen\Code Study\SelfRandomizingRom-fe8\Tables\FE8_clean.gba" 0x95f5a4 NewSummonsTable
 
 ALIGN 4
 NewSummonsTable:
